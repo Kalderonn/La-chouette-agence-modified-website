@@ -577,6 +577,7 @@ a[data-lightbox]:hover img {
 }
 
 .lightbox-caption {
+    text-align: center;
     padding: 20px;
     color: #FFF;
     background: rgba(0, 0, 0, .5);
@@ -810,20 +811,13 @@ h4 {
     border-color: #364577!important;
 }
 
-/* .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-} */
-
-/* .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-} */
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
