@@ -771,11 +771,6 @@ h4 {
 .bgc-white {
     background-color: #FFFFFF;
 }
-
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
-
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
@@ -944,6 +939,13 @@ h4 {
     #hero-bloc .navbar .nav a {
         color: rgba(255, 255, 255, .6);
     }
+    #bloc-1-hero{
+        background-image: unset;
+        background-color: #F3976C;
+    }
+    .hero-bloc-text{
+        color: #333333!important;
+    }
     .hero {
         padding: 50px 0;
     }
@@ -1026,6 +1028,10 @@ h4 {
         padding: 20px 0px 20px 0px;
     }
     .bg-presentation{
+        background-image: unset;
+        background-color: #333333;
+    }
+    #bloc-5-cta{
         background-image: unset;
         background-color: #333333;
     }
