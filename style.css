@@ -702,6 +702,8 @@ p {
 }
 
 .social {
+    display: flex;
+    justify-content: space-around;
     padding: 20px;
     max-width: 400px;
     margin: auto auto auto auto;
