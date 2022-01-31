@@ -885,7 +885,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    h1,
+    /* h1,
     h2,
     h3,
     h4,
@@ -895,9 +895,12 @@ h4 {
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
-    }
+    } */
     .b-parallax {
         background-attachment: scroll;
+    }
+    h2{
+        font-size: 20px;
     }
     .navbar .nav {
         padding-top: 0;
@@ -964,10 +967,10 @@ h4 {
         float: left;
         margin-left: 10px;
     }
-    .bloc {
+    /* .bloc {
         padding-left: 0;
         padding-right: 0;
-    }
+    } */
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
@@ -1016,6 +1019,13 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .black-background{
+        padding: 20px 0px 20px 0px;
+    }
+    .bg-presentation{
+        background-image: unset;
+        background-color: #333333;
     }
 }
 
